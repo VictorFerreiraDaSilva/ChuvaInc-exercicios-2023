@@ -372,12 +372,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/slevomat/coding-standard.git",
-                "reference": "f1509660d61c696760810c4ba68ff860ab9ed2bf"
+                "reference": "34c47b15f852f24008c0f1534b123b2ac124f7e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/f1509660d61c696760810c4ba68ff860ab9ed2bf",
-                "reference": "f1509660d61c696760810c4ba68ff860ab9ed2bf",
+                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/34c47b15f852f24008c0f1534b123b2ac124f7e2",
+                "reference": "34c47b15f852f24008c0f1534b123b2ac124f7e2",
                 "shasum": ""
             },
             "require": {
@@ -430,7 +430,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-10-04T08:54:00+00:00"
+            "time": "2023-10-08T08:13:24+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -438,12 +438,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "7566b4d89de1d08d2a8ad85910507d6633a35d28"
+                "reference": "8dfb63220e1fd5cfcce07f20bc24f75a5269597c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/7566b4d89de1d08d2a8ad85910507d6633a35d28",
-                "reference": "7566b4d89de1d08d2a8ad85910507d6633a35d28",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/8dfb63220e1fd5cfcce07f20bc24f75a5269597c",
+                "reference": "8dfb63220e1fd5cfcce07f20bc24f75a5269597c",
                 "shasum": ""
             },
             "require": {
@@ -488,7 +488,7 @@
                 "source": "https://github.com/squizlabs/PHP_CodeSniffer",
                 "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
             },
-            "time": "2023-09-11T11:08:03+00:00"
+            "time": "2023-10-12T00:46:56+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -1280,16 +1280,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "dev-main",
+            "version": "10.5.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "4997f6817b4fdd552192b7e7748b7dc8c27bc515"
+                "reference": "fe960832526ea661b18ba74f17c7b5cc6248d7c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/4997f6817b4fdd552192b7e7748b7dc8c27bc515",
-                "reference": "4997f6817b4fdd552192b7e7748b7dc8c27bc515",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/fe960832526ea661b18ba74f17c7b5cc6248d7c4",
+                "reference": "fe960832526ea661b18ba74f17c7b5cc6248d7c4",
                 "shasum": ""
             },
             "require": {
@@ -1323,7 +1323,6 @@
             "suggest": {
                 "ext-soap": "To be able to generate mocks based on WSDL files"
             },
-            "default-branch": true,
             "bin": [
                 "phpunit"
             ],
@@ -1362,7 +1361,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/main"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.5"
             },
             "funding": [
                 {
@@ -1378,7 +1377,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-10-08T06:45:01+00:00"
+            "time": "2023-10-13T12:49:03+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -2379,5 +2378,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
