@@ -76,7 +76,6 @@ class Main {
     }
     $writer->addRows($rows);
     $writer->close();
-    
   }
 
 }
