@@ -16,7 +16,6 @@ class Scrapper {
   public function scrap(\DOMDocument $dom): array {
     $papers = array();
     $a = $dom->getElementsByTagName('a');
-    $ids = array();
     foreach ($a as $link){
       $l = $link->getAttribute('href');
       if (str_starts_with($l, 'https://proceedings.science/proceeding')) {
