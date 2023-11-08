@@ -36,7 +36,6 @@ class Main {
       $highestAuthorCount = 9;
     }
     // Write your logic to save the output file bellow.
-    //print_r($highestAuthorCount);
     $cells = array();
     $cells[] = WriterEntityFactory::createCell('ID');
     $cells[] = WriterEntityFactory::createCell('Title');
